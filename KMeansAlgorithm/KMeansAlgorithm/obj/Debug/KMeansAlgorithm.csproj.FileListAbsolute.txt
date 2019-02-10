@@ -1,0 +1,17 @@
+C:\Users\ZlatKa\Documents\6 сем\МиАПР\Lab1\KMeansAlgorithm\KMeansAlgorithm\bin\Debug\KMeansAlgorithm.exe.config
+C:\Users\ZlatKa\Documents\6 сем\МиАПР\Lab1\KMeansAlgorithm\KMeansAlgorithm\bin\Debug\KMeansAlgorithm.exe
+C:\Users\ZlatKa\Documents\6 сем\МиАПР\Lab1\KMeansAlgorithm\KMeansAlgorithm\bin\Debug\KMeansAlgorithm.pdb
+C:\Users\ZlatKa\Documents\6 сем\МиАПР\Lab1\KMeansAlgorithm\KMeansAlgorithm\obj\Debug\KMeansAlgorithm.csprojResolveAssemblyReference.cache
+C:\Users\ZlatKa\Documents\6 сем\МиАПР\Lab1\KMeansAlgorithm\KMeansAlgorithm\obj\Debug\MainWindow.g.cs
+C:\Users\ZlatKa\Documents\6 сем\МиАПР\Lab1\KMeansAlgorithm\KMeansAlgorithm\obj\Debug\App.g.cs
+C:\Users\ZlatKa\Documents\6 сем\МиАПР\Lab1\KMeansAlgorithm\KMeansAlgorithm\obj\Debug\KMeansAlgorithm_MarkupCompile.cache
+C:\Users\ZlatKa\Documents\6 сем\МиАПР\Lab1\KMeansAlgorithm\KMeansAlgorithm\obj\Debug\KMeansAlgorithm_MarkupCompile.lref
+C:\Users\ZlatKa\Documents\6 сем\МиАПР\Lab1\KMeansAlgorithm\KMeansAlgorithm\obj\Debug\MainWindow.baml
+C:\Users\ZlatKa\Documents\6 сем\МиАПР\Lab1\KMeansAlgorithm\KMeansAlgorithm\obj\Debug\KMeansAlgorithm.g.resources
+C:\Users\ZlatKa\Documents\6 сем\МиАПР\Lab1\KMeansAlgorithm\KMeansAlgorithm\obj\Debug\KMeansAlgorithm.Properties.Resources.resources
+C:\Users\ZlatKa\Documents\6 сем\МиАПР\Lab1\KMeansAlgorithm\KMeansAlgorithm\obj\Debug\KMeansAlgorithm.csproj.GenerateResource.Cache
+C:\Users\ZlatKa\Documents\6 сем\МиАПР\Lab1\KMeansAlgorithm\KMeansAlgorithm\obj\Debug\KMeansAlgorithm.exe
+C:\Users\ZlatKa\Documents\6 сем\МиАПР\Lab1\KMeansAlgorithm\KMeansAlgorithm\obj\Debug\KMeansAlgorithm.pdb
+C:\Users\ZlatKa\Documents\6 сем\МиАПР\KMeansAlgorithm\KMeansAlgorithm\bin\Debug\KMeansAlgorithm.exe.config
+C:\Users\ZlatKa\Documents\6 сем\МиАПР\KMeansAlgorithm\KMeansAlgorithm\obj\Debug\KMeansAlgorithm.exe
+C:\Users\ZlatKa\Documents\6 сем\МиАПР\KMeansAlgorithm\KMeansAlgorithm\obj\Debug\KMeansAlgorithm.pdb
