@@ -1,0 +1,14 @@
+C:\Users\ZlatKa\Documents\6 сем\МиАПР\Lab2\MaxMinAlgorithm\MaxMinAlgorithm\bin\Debug\MaxMinAlgorithm.exe.config
+C:\Users\ZlatKa\Documents\6 сем\МиАПР\Lab2\MaxMinAlgorithm\MaxMinAlgorithm\bin\Debug\MaxMinAlgorithm.exe
+C:\Users\ZlatKa\Documents\6 сем\МиАПР\Lab2\MaxMinAlgorithm\MaxMinAlgorithm\bin\Debug\MaxMinAlgorithm.pdb
+C:\Users\ZlatKa\Documents\6 сем\МиАПР\Lab2\MaxMinAlgorithm\MaxMinAlgorithm\obj\Debug\MaxMinAlgorithm.csprojResolveAssemblyReference.cache
+C:\Users\ZlatKa\Documents\6 сем\МиАПР\Lab2\MaxMinAlgorithm\MaxMinAlgorithm\obj\Debug\MainWindow.g.cs
+C:\Users\ZlatKa\Documents\6 сем\МиАПР\Lab2\MaxMinAlgorithm\MaxMinAlgorithm\obj\Debug\App.g.cs
+C:\Users\ZlatKa\Documents\6 сем\МиАПР\Lab2\MaxMinAlgorithm\MaxMinAlgorithm\obj\Debug\MaxMinAlgorithm_MarkupCompile.cache
+C:\Users\ZlatKa\Documents\6 сем\МиАПР\Lab2\MaxMinAlgorithm\MaxMinAlgorithm\obj\Debug\MaxMinAlgorithm_MarkupCompile.lref
+C:\Users\ZlatKa\Documents\6 сем\МиАПР\Lab2\MaxMinAlgorithm\MaxMinAlgorithm\obj\Debug\MainWindow.baml
+C:\Users\ZlatKa\Documents\6 сем\МиАПР\Lab2\MaxMinAlgorithm\MaxMinAlgorithm\obj\Debug\MaxMinAlgorithm.g.resources
+C:\Users\ZlatKa\Documents\6 сем\МиАПР\Lab2\MaxMinAlgorithm\MaxMinAlgorithm\obj\Debug\MaxMinAlgorithm.Properties.Resources.resources
+C:\Users\ZlatKa\Documents\6 сем\МиАПР\Lab2\MaxMinAlgorithm\MaxMinAlgorithm\obj\Debug\MaxMinAlgorithm.csproj.GenerateResource.Cache
+C:\Users\ZlatKa\Documents\6 сем\МиАПР\Lab2\MaxMinAlgorithm\MaxMinAlgorithm\obj\Debug\MaxMinAlgorithm.exe
+C:\Users\ZlatKa\Documents\6 сем\МиАПР\Lab2\MaxMinAlgorithm\MaxMinAlgorithm\obj\Debug\MaxMinAlgorithm.pdb
