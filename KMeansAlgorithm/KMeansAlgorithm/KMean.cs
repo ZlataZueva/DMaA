@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KMeansAlgorithm
 {
-    class KMean<TObject> where TObject : struct
+    class KMean<TObject> where TObject : INullable
     {
         static public readonly int MaxObjectsAmount = 100000;
         static public readonly int MinObjectsAmount = 1000;
@@ -103,10 +103,10 @@ namespace KMeansAlgorithm
         }
 
         private TObject FindNewClassKernel (List<TObject> classObjects, Func<TObject, TObject, double> Distance)
-        {
-            TObject kernel = new TObject();
+        { 
             if (classObjects.Count() > 0)
             {
+                TObject kernel = classObjects[0];
                 double minStandardDeviation = double.MaxValue;
                 for (int tryKernelNum=0; tryKernelNum<classObjects.Count(); tryKernelNum++)
                 {
@@ -121,8 +121,9 @@ namespace KMeansAlgorithm
                         kernel = classObjects[tryKernelNum];
                     }
                 }
+                return kernel;
             }
-            return kernel;
+            return null;
         }
 
         public bool CheckandRechooseKernels (Dictionary<TObject, int> classesDictionary, TObject[] objects, ref int[] kernelsIndexes, Func<TObject, TObject, double> Distance)
