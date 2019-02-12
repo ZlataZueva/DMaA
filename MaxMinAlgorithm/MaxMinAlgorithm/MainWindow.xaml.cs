@@ -79,8 +79,16 @@ namespace MaxMinAlgorithm
                 drawingTask = new Task((obj) => { RepaintPoints(obj, objects,classesDivision, kernelIndexes); }, context);
                 drawingTask.Start();
             }
+            maxMinAlgorithm.CheckandRechooseKernels(classesDivision, objects, ref kernelIndexes, DistanceBetweenPoints);
             context.Send((x) =>
             {
+                double kernelsWidth = DrawCanvas.ActualWidth * kernelsRelativeSize;
+                for (int i = 0; i < kernelIndexes.Count(); i++)
+                {
+
+                    ((Ellipse)DrawCanvas.Children[i + objects.Count()]).Margin = new Thickness(objects[kernelIndexes[i]].X - kernelsWidth / 2, objects[kernelIndexes[i]].Y - kernelsWidth / 2, 0, 0);
+
+                }
                 ((Ellipse)DrawCanvas.Children[DrawCanvas.Children.Count - 1]).Fill = new SolidColorBrush(kernelColor);
                 ChangeElementsState(isEnabled: true);
             }, null);

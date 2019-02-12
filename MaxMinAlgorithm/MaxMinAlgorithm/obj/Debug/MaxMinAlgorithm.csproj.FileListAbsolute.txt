@@ -12,3 +12,6 @@ C:\Users\ZlatKa\Documents\6 сем\МиАПР\Lab2\MaxMinAlgorithm\MaxMinAlgorit
 C:\Users\ZlatKa\Documents\6 сем\МиАПР\Lab2\MaxMinAlgorithm\MaxMinAlgorithm\obj\Debug\MaxMinAlgorithm.csproj.GenerateResource.Cache
 C:\Users\ZlatKa\Documents\6 сем\МиАПР\Lab2\MaxMinAlgorithm\MaxMinAlgorithm\obj\Debug\MaxMinAlgorithm.exe
 C:\Users\ZlatKa\Documents\6 сем\МиАПР\Lab2\MaxMinAlgorithm\MaxMinAlgorithm\obj\Debug\MaxMinAlgorithm.pdb
+C:\Users\ZlatKa\Source\Repos\ZlataZueva\DMaA\MaxMinAlgorithm\MaxMinAlgorithm\bin\Debug\MaxMinAlgorithm.exe.config
+C:\Users\ZlatKa\Source\Repos\ZlataZueva\DMaA\MaxMinAlgorithm\MaxMinAlgorithm\obj\Debug\MaxMinAlgorithm.exe
+C:\Users\ZlatKa\Source\Repos\ZlataZueva\DMaA\MaxMinAlgorithm\MaxMinAlgorithm\obj\Debug\MaxMinAlgorithm.pdb

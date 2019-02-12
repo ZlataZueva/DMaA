@@ -103,6 +103,29 @@ namespace MaxMinAlgorithm
             return division;
         }
 
+        private TObject FindNewClassKernel(List<TObject> classObjects, Func<TObject, TObject, double> Distance)
+        {
+            TObject kernel = new TObject();
+            if (classObjects.Count() > 0)
+            {
+                double minStandardDeviation = double.MaxValue;
+                for (int tryKernelNum = 0; tryKernelNum < classObjects.Count(); tryKernelNum++)
+                {
+                    double standardDeviation = 0;
+                    for (int objectNum = 0; objectNum < classObjects.Count() && standardDeviation < minStandardDeviation; objectNum++)
+                    {
+                        standardDeviation += Distance(classObjects[tryKernelNum], classObjects[objectNum]);
+                    }
+                    if (standardDeviation < minStandardDeviation)
+                    {
+                        minStandardDeviation = standardDeviation;
+                        kernel = classObjects[tryKernelNum];
+                    }
+                }
+            }
+            return kernel;
+        }
+
         private TObject FindClassMostRemote(List<TObject> classObjects, TObject kernel, Func<TObject, TObject, double> Distance)
         {
             TObject theMostRemote = new TObject();
@@ -185,6 +208,39 @@ namespace MaxMinAlgorithm
                 }
             }
             return distance / amount;
+        }
+
+        public bool CheckandRechooseKernels(Dictionary<TObject, int> classesDictionary, TObject[] objects, ref List<int> kernelsIndexes, Func<TObject, TObject, double> Distance)
+        {
+            bool isChanged = false;
+            if (objects.Count() == _objectsAmount && kernelsIndexes.Count() == _classesAmount)
+            {
+                Task<TObject>[] tasksArr = new Task<TObject>[_classesAmount];
+                for (int classNum = 0; classNum < _classesAmount; classNum++)
+                {
+                    List<TObject> classObjects = new List<TObject>();
+                    for (int objectNum = 0; objectNum < _objectsAmount; objectNum++)
+                    {
+                        if (classesDictionary[objects[objectNum]] == classNum)
+                        {
+                            classObjects.Add(objects[objectNum]);
+                        }
+                    }
+                    tasksArr[classNum] = new Task<TObject>(() => { return FindNewClassKernel(classObjects, Distance); });
+                    tasksArr[classNum].Start();
+                }
+                for (int classNum = 0; classNum < _classesAmount; classNum++)
+                {
+                    tasksArr[classNum].Wait();
+                    TObject newKernel = tasksArr[classNum].Result;
+                    if (!newKernel.Equals(objects[kernelsIndexes[classNum]]))
+                    {
+                        isChanged = true;
+                        kernelsIndexes[classNum] = Array.IndexOf(objects, newKernel);
+                    }
+                }
+            }
+            return !isChanged;
         }
     }
 }
