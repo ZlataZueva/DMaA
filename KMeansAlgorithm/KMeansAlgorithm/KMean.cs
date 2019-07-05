@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KMeansAlgorithm
 {
-    class KMean<TObject> where TObject : INullable
+    class KMean<TObject> 
     {
         static public readonly int MaxObjectsAmount = 100000;
         static public readonly int MinObjectsAmount = 1000;
@@ -123,7 +123,10 @@ namespace KMeansAlgorithm
                 }
                 return kernel;
             }
-            return null;
+            else
+            {
+                throw new ArgumentException("List is empty");
+            }
         }
 
         public bool CheckandRechooseKernels (Dictionary<TObject, int> classesDictionary, TObject[] objects, ref int[] kernelsIndexes, Func<TObject, TObject, double> Distance)
